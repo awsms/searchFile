@@ -6,3 +6,32 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+.file-suggestion-item {
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+}
+
+.file-suggestion-icon {
+	width: 1.5em;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.file-suggestion-open {
+	font-weight: bold;
+	color: var(--text-accent);
+}
+
+/* .file-suggestion-open-item + .file-suggestion-item {
+  border-top: 1px solid var(--text-muted);
+  margin-top: 0.5em;
+  padding-top: 0.25em;
+} */
+
+/* .suggestion-list .file-suggestion-open-item + .suggestion-item {
+  border-top: 1px solid var(--divider) !important;
+  margin: 0.5em 0 0 0 !important;
+  padding: 0.25em 0 0 0 !important;
+} */
